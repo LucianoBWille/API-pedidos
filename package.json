@@ -1,0 +1,29 @@
+{
+  "name": "api-pedidos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/app.js",
+    "test": "mocha --exit --timeout 10000 src/test/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^7.4.0",
+    "body-parser": "^1.19.0",
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "debug": "^4.2.0",
+    "express": "^4.17.1",
+    "http": "0.0.1-security",
+    "md5": "^2.3.0",
+    "mocha": "^8.2.0",
+    "mongoose": "^5.10.10"
+  },
+  "devDependencies": {
+    "mongodb-memory-server": "^6.9.2",
+    "nodemon": "^2.0.6"
+  }
+}
